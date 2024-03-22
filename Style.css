@@ -16,19 +16,19 @@ body {
     cursor: default;
 }
 #meme div {
-    color:#35C4F0;
+    color:#884A91;
     font-family:Helvetica, Arial, sans-serif;
     font-size: 25px;
 
     position:absolute;
-    width:20px;
+    width: 0%;
     height:36px;
     opacity:0;
 
-    animation: move 2s linear infinite;
-    -webkit-animation: move 2s linear infinite;
-    transform: rotate(180deg);
-    -webkit-transform: rotate(180deg);
+    animation: move 3s linear infinite;
+    -webkit-animation: move 3s linear infinite;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
 }
 
 #meme div:nth-child(2) {
@@ -51,13 +51,38 @@ body {
     -webkit-animation-delay: 0.8s;
 }
 
+#meme div:nth-child(6) {
+    animation-delay: 1.0s;
+    -webkit-animation-delay: 1.0s;
+}
+
+#meme div:nth-child(7) {
+    animation-delay: 1.2s;
+    -webkit-animation-delay: 1.2s;
+}
+
+#meme div:nth-child(8) {
+    animation-delay: 1.4s;
+    -webkit-animation-delay: 1.4s;
+}
+
+#meme div:nth-child(9) {
+    animation-delay: 1.6s;
+    -webkit-animation-delay: 1.6s;
+}
+
+#meme div:nth-child(10) {
+    animation-delay: 1.8s;
+    -webkit-animation-delay: 1.8s;
+}
+
 @keyframes move {
     0% {
         left:0;
         opacity:0;
       }
         35% {
-            left: 41%; 
+            left: 31%; 
             -moz-transform:rotate(0deg);
             -webkit-transform:rotate(0deg);
             -o-transform:rotate(0deg);
@@ -65,7 +90,7 @@ body {
             opacity:1;
         }
         65% {
-            left:59%; 
+            left:69%; 
             -moz-transform:rotate(0deg); 
             -webkit-transform:rotate(0deg); 
             -o-transform:rotate(0deg);
@@ -74,10 +99,10 @@ body {
         }
         100% {
             left:100%; 
-            -moz-transform:rotate(-180deg); 
-            -webkit-transform:rotate(-180deg); 
-            -o-transform:rotate(-180deg); 
-            transform:rotate(-180deg);
+            -moz-transform:rotate(-90deg); 
+            -webkit-transform:rotate(-90deg); 
+            -o-transform:rotate(-90deg); 
+            transform:rotate(-90deg);
             opacity:0;
         }
 }
@@ -88,7 +113,7 @@ body {
         opacity:0;
       }
         35% {
-            left: 41%; 
+            left: 31%; 
             -moz-transform:rotate(0deg);
             -webkit-transform:rotate(0deg);
             -o-transform:rotate(0deg);
@@ -96,7 +121,7 @@ body {
             opacity:1;
         }
         65% {
-            left:59%; 
+            left:69%; 
             -moz-transform:rotate(0deg); 
             -webkit-transform:rotate(0deg); 
             -o-transform:rotate(0deg);
@@ -105,10 +130,10 @@ body {
         }
         100% {
             left:100%; 
-            -moz-transform:rotate(-180deg); 
-            -webkit-transform:rotate(-180deg); 
-            -o-transform:rotate(-180deg); 
-            transform:rotate(-180deg);
+            -moz-transform:rotate(-45deg); 
+            -webkit-transform:rotate(-45deg); 
+            -o-transform:rotate(-45deg); 
+            transform:rotate(-45deg);
             opacity:0;
         }
 }
